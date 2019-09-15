@@ -1,0 +1,42 @@
+* a:hover {
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: white;
+  font-size: 5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.jumbotron img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn {
+  color: black;
+  background-color: rgb(255, 237, 78);
+  border-color: lightblue;
+  border-width: 5px;
+  transition: 1s;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(255, 237, 78);
+  border-color: lightblue;
+  border-width: 5px;
+  transform: scale(1.4);
+}
